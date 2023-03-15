@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+header {
+    height: 10vh;
+    background-color: #80cbc4;
+}
+
+main {
+    display: flex;
+    height: 75vh;
+}
+
+.nav {
+    width: 15vw;
+    background-color: #ffab00;
+}
+
+.art {
+    width: 50vw;
+    background-color: #ffd54e;
+}
+
+.aside {
+    width: 35vw;
+    background-color: #fff276;
+}
+
+footer {
+    height: 15vh;
+    background-color: #26a69a;
+}
+
+p {
+    margin: 20px;
+    font-size: 35pt;
+    font-weight: bold;
+}

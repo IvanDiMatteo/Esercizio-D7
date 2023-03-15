@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px 0px 10px 0px;
+    font-weight: 900;
+}
+
+header>p {
+    margin: 0px;
+    color: #6e6d7a;
+}
+
+#related {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#related>p {
+    margin-top: 10px;
+    padding: 0px 10px 0px 10px;
+    color: #ea4c89;
+}
+
+#related>p:first-child {
+    color: #757480;
+    font-weight: bold;
+}
+
+/* Nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0% 5% 0% 5%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 40vw;
+    white-space: nowrap;
+    color: #6e6d7a;
+}
+
+#navbar>p {
+    padding: 0px 10px 0px 10px;
+}
+
+#navbar>p:last-child {
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #f3f3f4;
+    padding: 15px 12px 15px 12px;
+}
+
+#popular {
+    max-height: 50px;
+    border: solid 5px #feedf3;
+    border-radius: 8px;
+    padding: 0px 20px 0px 20px;
+}
+
+#filters {
+    max-height: 50px;
+    border: solid 2px #f3f3f4;
+    border-radius: 8px;
+    padding: 0px 20px 0px 20px;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 5% 0% 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigimg {
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.descrizione {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descrizione img {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+}
+
+.caption p,img {
+    padding-right: 5px;
+}
+
+.caption p {
+    margin: 0px;
+    font-weight: bold;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.caption>p:last-child {
+    color: white;
+    border-radius: 3px;
+    background-color: #d9d9db;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.caption2 {
+    display: flex;
+    align-items: center;
+    color: #6e6d7a;
+    font-weight: bold;
+}
+
+.caption2 p,ion-icon {
+    padding-left: 5px;
+}
+
+.caption2 p {
+    color: #4f4f56;
+}
+
+ion-icon {
+    font-size: 20px;
+}
+
+#hidden {
+    visibility: hidden;
+}
